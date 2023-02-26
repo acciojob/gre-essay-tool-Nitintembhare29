@@ -5,5 +5,5 @@ function countWords() {
 			if (text.trim() !== "") {
 				wordCount = text.trim().split(/\s+/).length;
 			}
-			document.getElementById("wordCount").innerHTML = wordCount;
+			document.getElementById("wordCount").textContent = wordCount;
 		}
